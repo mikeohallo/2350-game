@@ -25,7 +25,7 @@ python3 card.py base/card_bg_asia.jpg out/season6_card_asia.jpg
 
 | File | What it is |
 |---|---|
-| `board.py` | The core library: projection, glow fields, text and lines. It was first written for season 1, whose Australian geography files aren't included here. |
+| `board.py` | The core library: projection, glow fields, text and lines. The world renderer sets its own calibration on top of it. |
 | `world_board.py` | The world renderer: the setup board and one board per era. |
 | `finale.py` | The 2350 board: every bloc's verdict ring, standing by era, and the arcs. |
 | `card.py` | One power's 2350 card. |
