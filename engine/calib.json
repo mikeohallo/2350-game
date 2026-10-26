@@ -1,0 +1,9 @@
+{
+ "note": "pixel = a*lon + b, c*lat + d on base_global_v1.jpg (full size), fitted on the Oceania/Asia theatre",
+ "a": 17.193191463002357,
+ "b": 2954.286613928348,
+ "c": -17.905441289022946,
+ "d": 1483.2204298663523,
+ "iou_theatre": 0.5863056652696957,
+ "iou_global": 0.7113421924279814
+}
