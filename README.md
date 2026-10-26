@@ -1,12 +1,3 @@
-<!--
-DRAFT v1, 26 Oct 2026 (private). Before this repo goes public (portfolio rule P6), the ideas chat runs the go-public check. Still open:
-- the elevation-data attribution for the city board in the top image;
-- Google's terms for the Gemini-made base map (engine/base/);
-- a proper name/trademark check on "2350";
-- no friend quotes or family context without the person's OK;
-- "An outside playtest" filled in once the friend's season is back.
--->
-
 # 2350
 
 **A strategy game about the next two centuries, designed in seven AI-run playtests.**
@@ -122,7 +113,11 @@ Still to come: an atlas of every finished season, and the design journal behind 
 
 ## Credits
 
-- **Map data:** [Natural Earth](https://www.naturalearthdata.com/) (public domain). City elevation from AWS Terrain Tiles *(attribution to add)*.
+- **Map data:** [Natural Earth](https://www.naturalearthdata.com/) (public domain).
+- **City elevation** (the Sydney board), from Terrain Tiles:
+    - Australia terrain data © Commonwealth of Australia (Geoscience Australia) 2017.
+    - United States 3DEP (formerly NED) and global GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey.
+    - Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration.
 - **Fonts:** Rajdhani and Share Tech Mono (in `engine/fonts/`, with their SIL Open Font License files), and IBM Plex Sans on the card.
 - **Base map art:** made with Google Gemini.
 - **Game master:** Claude, by Anthropic.
