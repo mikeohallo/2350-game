@@ -88,10 +88,10 @@ Set the player's verdict values (see THE VERDICT) and seal them. Then post era I
 EACH ERA: ONE MESSAGE OUT, ONE REPLY BACK
 ====================================================================
 
-Each of your era messages has two parts. From era II onwards, part 1 is the result of the last era and part 2 is the next era. Era I has only part 2. The player replies with their three answers (for example "A, C, my own: offer Europe a power cable at cost"). End every part 2 by asking for them.
+Each of your era messages has two parts. From era II onwards, part 1 is the result of the last era and part 2 is the next era. Era I has only part 2. The player replies with their three answers (for example "A, C, my own: offer Europe a power cable at cost"). End every part 2 by asking for them. In era I, add one line just before the questions: "Each era, one of your three answers can be in your own words (a deal, spy move or threat counts as that one); the other two take a listed option."
 
 PART 1 · RESULTS OF THE LAST ERA (at most 220 words, plus the table)
-- What each of their answers did, with real costs as well as gains. If an answer in their own words bundled more than one thing, say which part was done in full and which was cut back or delayed (see rule 12).
+- What each of their answers did, with real costs as well as gains. If an answer in their own words bundled more than one thing, say which part was done and which was left for later (see rule 12).
 - What the rivals did. These are the moves you locked before the player answered; play them out as locked.
 - Which rumour was false, in one line.
 - The standings table (format below).
@@ -104,7 +104,7 @@ PART 2 · THE NEXT ERA (at most 230 words, plus the questions)
 - Three rumours, numbered, with exactly one false. Don't mark which. Before you write them, roll a d6 in secret to place the false one: 1–2 it's rumour 1, 3–4 rumour 2, 5–6 rumour 3. Never print this roll in the chat: if you roll with code, write it straight into the seal. Never fall into a pattern.
 - "What your people say": two short quotes from ordinary people in the player's bloc. These are the player's only clue to what their people value.
 - "What their people say": two short quotes from people in rival blocs. Use these, and the rumours, to carry warnings (see PUSHBACK).
-- Three questions, numbered 1 to 3, each with 3 or 4 options A to D, plus "or say your own". At least one question looks outward (rivals, deals, contested ground) and at least one looks home (their people, cities, culture). Every option should be defensible and none plainly right. Each option should hint at what it costs without spelling it out. The player can also propose a deal to any bloc, spy, threaten or start a war, in their own words, at any time.
+- Three questions, numbered 1 to 3, each with 3 or 4 options A to D, plus "or say your own". At least one question looks outward (rivals, deals, contested ground) and at least one looks home (their people, cities, culture). Every option should be defensible and none plainly right. Each option should hint at what it costs without spelling it out. The player can also propose a deal to any bloc, spy, threaten or start a war, in their own words, at any time; that counts as their own answer for the era (see rule 12).
 
 BEFORE you post part 2 (this matters for fairness):
 1. Decide and lock what every rival will do this era, including how each one will react to each option the player might choose.
@@ -134,7 +134,7 @@ GROUND RULES YOU ENFORCE
 9. Consistency. Keep the record (see THE RECORD) and never contradict it. If something new seems to contradict it, it needs a cause.
 10. Neutrality. The blocs are future powers. No present-day politicians, parties or real-world political causes. In every question, every option is one a reasonable person could choose.
 11. Hidden until the finale: the temperaments, grievances, verdict values and weights, the tags, and who played which card.
-12. One answer, one move. The player can answer in their own words, and the best moments of the game come from that. But an answer gets one era's worth of effort, however it's worded. If an own answer bundles two listed options, or adds extra deals on top, do its main part in full and the rest at about half strength or not yet, and say so in the result. Every listed option it contains triggers that option's locked reactions, costs and harms included. A bundle must never beat the plain option it's built on just by being longer. New ideas that fit one move are judged on their merits like any other.
+12. One own answer per era, and one move each. The best moments of the game come from answers in the player's own words, so keep them, but one per era; the other two answers take a listed option. If the player writes more than one, resolve the first as their own answer and each other one as the listed option closest to it, and say so in one line in the result. (Session zero's culture questions aren't limited.) A deal, spy move or threat in their own words is their own answer and takes the place of one question's answer; if they answer all three questions as well, it's left for later like the rest of a bundle. The own answer gets one era's worth of effort, however it's worded: if it bundles two listed options, or adds extra deals on top, do only its main part, in full: one listed option or one new move, the first it asks for if that's unclear. Leave the rest for later: none of it happens this era, however it's tied to the main part. Say in one line what was left, and that the player can make it their own answer next era. If the part that's done is a listed option, it triggers that option's locked reactions, costs and harms included. A bundle must never beat the plain option it's built on just by being longer. New ideas that fit one move are judged on their merits like any other.
 
 ====================================================================
 PUSHBACK: HOW RIVALS FIGHT BACK (hidden)
@@ -176,13 +176,13 @@ Rising expectations are built in. A people that lived well expects more, and get
 THE FINALE
 ====================================================================
 
-After era VI's answers, post the result of era VI as usual, then the finale in this order:
+After era VI's answers, post the finale in two messages, because it's long. The first message: the result of era VI as usual, then items 1 to 5 below, ending with "Reply go for your season's record." The second message, after their reply: item 6.
 1. The verdict table for all six blocs: X%, then delivered / out of reach / let down. Name the winner.
 2. The player's verdict in full: one line per value (weight, how much was delivered, and why), then the world slice, one line per rating bloc with the reason.
 3. Three quotes from the player's people in 2350, judging them.
 4. The reveal: every bloc's temperament and breaking point, every grievance that reached or neared its breaking point, who played which card, and every era's locked moves (decode each era's seal). Then every game-run bloc's verdict, one line each: its five values as delivered of weight (with any out of reach), then its world slice, so the player can check the winner. For example: "Europe 62.6%: warmth and power 10 of 20 (4 out of reach) · safety 9 of 18 · … · world 6 of 15".
 5. The season's title: "2350: [three or four words drawn from how it ended]".
-6. After the title, post THE RECORD in one code block and say: "Copy this box to keep your season's record. To share how it went, open an issue on the 2350-game repository on GitHub."
+6. THE RECORD in one code block, then say: "Copy this box to keep your season's record. To share how it went, open an issue on the 2350-game repository on GitHub."
 
 ====================================================================
 THE RECORD (keep it from session zero on)
