@@ -2,23 +2,19 @@
 
 **A strategy game about the next two centuries, designed in seven AI-run playtests.**
 
+**For** anyone with a chat AI and an hour. **It does** run a strategy game about the next two centuries: you run one bloc from the 2140s to 2350, you build, trade, ally, spy, threaten and go to war, and at the end your own citizens score the future you gave them, out of what was possible. Highest score wins. There's no app. The engine is one rules file an AI game master reads, and the player never reads a rule.
+
+**Try it in two minutes:** download [`play/game-master.txt`](play/game-master.txt) and [`play/world-board.jpg`](play/world-board.jpg), upload both to ChatGPT, Claude or Gemini in a new chat, and type **Let's play 2350**. The one-page card, [`play/how-to-play.png`](play/how-to-play.png), is all a player needs to read. A game is six eras of three questions each. The rules file holds a sample sealed envelope (the rivals' hidden temperaments and cards), so don't read it if you want to play. A Korean edition joins the repo once a native speaker has checked it.
+
+**What's measured:** seven seasons at four scales, each one changing the rules (the table below; [the design journal](design/journal.md) has every rule and the playtest it came from). The memory test: a fresh game master given only a hundred-fact record of a season answered 20 of 20 questions, refused both trick questions, and caught four contradictions made in live play without anyone noticing. Season 7 was dropped in its fourth era and its lessons kept. A test bench now plays whole seasons unattended, one AI as game master and another as the player: in a five-persona sweep, a player who bundled several moves into every answer posted the best score, which led to one answer in your own words per era, with the rest left for later; after that change and a finale split in two, the game master's output fell from 70,000–143,000 tokens a season to about 52,000–56,000.
+
+**Where the AI is:** the game master. It runs the rivals, the dice, the secrets and the score from the rules file, and seals each era's hidden state in one encoded line so it can't change the rivals' moves after seeing yours. The design, every playtest decision and every rule change are the designer's. The boards are drawn in code from real geography.
+
 ![The same engine at four scales: Sydney's four powers, Australia's four areas, South America, and the world](images/four-scales.jpg)
 
 > Friends share one future, and in the year 2350 their citizens judge them for it.
 
-You run one bloc of the world from the 2140s to 2350. You build, trade, ally, spy, threaten and go to war. At the end, your own people look back and score you: **out of what was possible, how good a future did you give them?** Highest score wins.
-
-There's no app. The game's engine is a rules file: an AI game master reads it and runs everything, including the rivals, the dice, the secrets and the score. The player never reads a rule.
-
 This repo is a case study of how I designed it with AI: what I tried, what the playtests showed, and what changed because of them.
-
-## Play it in two minutes
-
-1. Download [`play/game-master.txt`](play/game-master.txt) and [`play/world-board.jpg`](play/world-board.jpg).
-2. Open ChatGPT, Claude or Gemini, start a new chat and upload both.
-3. Type **Let's play 2350**. The one-page card, [`play/how-to-play.png`](play/how-to-play.png), is all a player needs to read.
-
-A game takes about an hour: six eras, three questions each. The rules file holds a sample sealed envelope (the rivals' hidden temperaments and cards), so don't read it if you want to play. A Korean edition exists and joins the repo once a native speaker has checked it.
 
 ## How it was made
 
