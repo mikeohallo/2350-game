@@ -40,6 +40,8 @@ A game takes about an hour: six eras, three questions each. The rules file holds
 | 6 | Global | Asia | 10 | *2350: The Open Gate* |
 | 7 | Regional | South Korea, in East Asia | 3 of 8 | Dropped (see [What didn't work](#what-didnt-work)) |
 
+Every season's boards, and how each one played out, are in **[the atlas](atlas/)**. The reasoning behind every rule is in **[the design journal](design/journal.md)**.
+
 ## What the playtests changed
 
 Every rule below came from a problem that showed up in play or in feedback.
@@ -76,10 +78,10 @@ The weights grow out of each season: the culture you build and the hardships you
 
 ## What didn't work
 
-- **Season 7 didn't land, and I dropped it after three eras.** It used five real East Asian countries.
+- **Season 7 didn't land, and I dropped it in its fourth era.** It used five real East Asian countries.
     - The live real-world tensions made the game master cautious, so the eras read like today's news with the dates changed.
     - Pure chance meant no shock fired in four rolls.
-    - Building tools mid-season broke the momentum, and it was the seventh season in three days.
+    - Building the friend pack mid-season broke the momentum, and it was the seventh season in three days.
     - **What came out of it:** shock odds that rise each era nothing fires, and keeping real flashpoints one step removed.
 - **Painted era images.** I generated an image of my region each era. They never matched the boards: first too washed out, then too bleak. The boards stayed and the images went.
 - **The runaway leader is still open.** The verdict makes leading not enough, but so far every brake on a leading human has been voluntary or has come at the end of the game.
@@ -105,16 +107,16 @@ Every board is drawn in code (Python, Pillow, NumPy), so it costs nothing to red
 
 ```
 play/      the rules file for any chat AI, the how-to-play card, the world board
+atlas/     every finished season: what happened, an era board, the finale, the 2350 cards
+design/    the design journal: every rule and the playtest it came from
 engine/    the board renderer, with season 6 as sample data (see engine/README.md)
 images/    the pictures in this README
 ```
 
-Still to come: an atlas of every finished season, and the design journal behind it.
-
 ## Credits
 
 - **Map data:** [Natural Earth](https://www.naturalearthdata.com/) (public domain).
-- **City elevation** (the Sydney board), from Terrain Tiles:
+- **City elevation** (the Sydney boards), from Terrain Tiles:
     - Australia terrain data © Commonwealth of Australia (Geoscience Australia) 2017.
     - United States 3DEP (formerly NED) and global GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey.
     - Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration.
